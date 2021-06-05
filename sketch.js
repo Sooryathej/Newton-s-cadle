@@ -55,7 +55,7 @@ function keyPressed() {
 	 }
 	
 function mouseDragged(){
-	Matter.Body.setPosition(bob5.body,{x:mouseX , y:mouseY})
+	Matter.Body.setPosition(bobObject5.body,{x:mouseX , y:mouseY})
 }
 
 }
